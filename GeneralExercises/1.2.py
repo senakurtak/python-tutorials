@@ -1,7 +1,7 @@
 
 n = 100
-for i in range(n): #    print('*' * i)
-    for j in range(n-i-1): # yan yana yıldızlar
+for i in range(n):
+    for j in range(n-i-1): 
         print(" ", end="")
     for j in range(i+1):
         print("*",end="")
